@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "name": "CADIZ",
+    "image": { "src": "cadiz.jpg", "alt": "Cadiz tv shelf,front view" },
+    "discount": 20,
+    "price":  180,
+    "rating": [
+      { "value": 1, "count": 5 },
+      { "value": 2, "count": 8 },
+      { "value": 3, "count": 12 },
+      { "value": 4, "count": 34 },
+      { "value": 5, "count": 61 }
+    ],
+    "stock": 234,
+    "createdAt": "2026-01-05T10:20:00Z",
+    "categoryId": 5,
+    "materialId": 3,
+    "colorId": 2
+  },
+  {
+    "id": 2,
+    "name": "HELPPO 95",
+    "image": { "src": "helppo 95.jpg", "alt": "Helppo tv shelf,front view" },
+    "discount": 20,
+    "price": 75,
+    "rating": [
+      { "value": 1, "count": 2 },
+      { "value": 2, "count": 6 },
+      { "value": 3, "count": 14 },
+      { "value": 4, "count": 48 },
+      { "value": 5, "count": 30 }
+    ],
+    "stock": 150,
+    "createdAt": "2026-01-08T14:40:00Z",
+    "categoryId": 5,
+    "materialId": [1, 3],
+    "colorId": [3, 11]
+  },
+  {
+    "id": 3,
+    "name": "SAVOIA 3K1F2V",
+    "image": { "src": "savoia 3k1f2v.jpg", "alt": "Savoia 3k1f2v,front view" },
+    "discount": 60,
+    "price": 260,
+    "rating": [
+      { "value": 1, "count": 14 },
+      { "value": 2, "count": 21 },
+      { "value": 3, "count": 26 },
+      { "value": 4, "count": 9 },
+      { "value": 5, "count": 4 }
+    ],
+    "stock": 321,
+    "createdAt": "2026-01-02T09:15:00Z",
+    "categoryId": 5,
+    "materialId": 1,
+    "colorId": [4, 2]
+  },
+  {
+    "id": 4,
+    "name": "LOLY",
+    "image": { "src": "loly.jpg", "alt": "Loly footstool,front view" },
+    "discount": 20,
+    "price":  50,
+    "rating": [
+      { "value": 1, "count": 3 },
+      { "value": 2, "count": 7 },
+      { "value": 3, "count": 18 },
+      { "value": 4, "count": 41 },
+      { "value": 5, "count": 29 }
+    ],
+    "stock": 328,
+    "createdAt": "2026-01-11T18:00:00Z",
+    "categoryId": 6,
+    "materialId": [1, 5],
+    "colorId": [1, 4]
+  },
+  {
+    "id": 5,
+    "name": "OXY",
+    "image": { "src": "oxy.jpg", "alt": "Oxy footstool,front view" },
+    "discount": null,
+    "price": 20,
+    "rating": [
+      { "value": 1, "count": 1 },
+      { "value": 2, "count": 3 },
+      { "value": 3, "count": 9 },
+      { "value": 4, "count": 27 },
+      { "value": 5, "count": 18 }
+    ],
+    "stock": 472,
+    "createdAt": "2026-01-20T12:10:00Z",
+    "categoryId": 6,
+    "materialId": 5,
+    "colorId": 8
+  },
+  {
+    "id": 6,
+    "name": "TEDY",
+    "image": { "src": "tedy.jpg", "alt": "Tedy footstool,front view" },
+    "discount": 20,
+    "price":  55,
+    "rating": [
+      { "value": 1, "count": 6 },
+      { "value": 2, "count": 10 },
+      { "value": 3, "count": 19 },
+      { "value": 4, "count": 22 },
+      { "value": 5, "count": 11 }
+    ],
+    "stock": 235,
+    "createdAt": "2026-01-17T16:30:00Z",
+    "categoryId": 6,
+    "materialId": [3, 5],
+    "colorId": [4, 7]
+  },
+  {
+    "id": 7,
+    "name": "LONG",
+    "image": { "src": "long.jpg", "alt": "Long sofa,front view" },
+    "discount": 20,
+    "price": 950,
+    "rating": [
+      { "value": 1, "count": 8 },
+      { "value": 2, "count": 12 },
+      { "value": 3, "count": 21 },
+      { "value": 4, "count": 33 },
+      { "value": 5, "count": 17 }
+    ],
+    "stock": 23,
+    "createdAt": "2026-01-04T11:00:00Z",
+    "categoryId": 7,
+    "materialId": [1, 5],
+    "colorId": 9
+  },
+  {
+    "id": 8,
+    "name": "MINA",
+    "image": { "src": "mina.jpg", "alt": "Mina sofa,front view" },
+    "discount": 15,
+    "price":  700,
+    "rating": [
+      { "value": 1, "count": 2 },
+      { "value": 2, "count": 6 },
+      { "value": 3, "count": 13 },
+      { "value": 4, "count": 39 },
+      { "value": 5, "count": 44 }
+    ],
+    "stock": 54,
+    "createdAt": "2026-01-14T13:25:00Z",
+    "categoryId": 7,
+    "materialId": [5, 3],
+    "colorId": 10
+  },
+  {
+    "id": 9,
+    "name": "GALAXY",
+    "image": { "src": "galaxy.jpg", "alt": "Galaxy sofa,front view" },
+    "discount": 15,
+    "price":  900,
+    "rating": [
+      { "value": 1, "count": 1 },
+      { "value": 2, "count": 4 },
+      { "value": 3, "count": 10 },
+      { "value": 4, "count": 36 },
+      { "value": 5, "count": 58 }
+    ],
+    "stock": 346,
+    "createdAt": "2026-01-01T08:45:00Z",
+    "categoryId": 7,
+    "materialId": [5, 1],
+    "colorId": 1
+  },
+  {
+    "id": 10,
+    "name": "DUE LINE",
+    "image": { "src": "due line.jpg", "alt": "Due line bed,front view" },
+    "discount": null,
+    "price":  900,
+    "rating": [
+      { "value": 1, "count": 7 },
+      { "value": 2, "count": 11 },
+      { "value": 3, "count": 19 },
+      { "value": 4, "count": 24 },
+      { "value": 5, "count": 15 }
+    ],
+    "stock": 65,
+    "createdAt": "2026-01-06T19:50:00Z",
+    "categoryId": 8,
+    "materialId": [1, 5],
+    "colorId": 1
+  },
+  {
+    "id": 11,
+    "name": "MOON",
+    "image": { "src": "moon.jpg", "alt": "Moon bed,front view" },
+    "discount": 20,
+    "price":  700,
+    "rating": [
+      { "value": 1, "count": 2 },
+      { "value": 2, "count": 5 },
+      { "value": 3, "count": 11 },
+      { "value": 4, "count": 38 },
+      { "value": 5, "count": 49 }
+    ],
+    "stock": 47,
+    "createdAt": "2026-01-19T10:05:00Z",
+    "categoryId": 8,
+    "materialId": [1, 5],
+    "colorId": 1
+  },
+  {
+    "id": 12,
+    "name": "WINDHUK",
+    "image": { "src": "windhuk.jpg", "alt": "Windhuk bed,front view" },
+    "discount": 15,
+    "price":  100,
+    "rating": [
+      { "value": 1, "count": 9 },
+      { "value": 2, "count": 14 },
+      { "value": 3, "count": 22 },
+      { "value": 4, "count": 18 },
+      { "value": 5, "count": 7 }
+    ],
+    "stock": 196,
+    "createdAt": "2026-01-16T15:35:00Z",
+    "categoryId": 8,
+    "materialId": [1, 5],
+    "colorId": 2
+  },
+  {
+    "id": 13,
+    "name": "HANA 2K3P2F",
+    "image": { "src": "hana 2k3p2f.jpg", "alt": "Hana 2k3p2f closet,front view" },
+    "discount": 20,
+    "price":  220,
+    "rating": [
+      { "value": 1, "count": 4 },
+      { "value": 2, "count": 9 },
+      { "value": 3, "count": 16 },
+      { "value": 4, "count": 27 },
+      { "value": 5, "count": 23 }
+    ],
+    "stock": 248,
+    "createdAt": "2026-01-07T09:00:00Z",
+    "categoryId": 9,
+    "materialId": [1],
+    "colorId": 11
+  },
+  {
+    "id": 14,
+    "name": "SARDINA 270 OG",
+    "image": { "src": "sardina 270 og.jpg", "alt": "Sardina 270 og wardrobe,front view" },
+    "discount": null,
+    "price":  800,
+    "rating": [
+      { "value": 1, "count": 6 },
+      { "value": 2, "count": 13 },
+      { "value": 3, "count": 21 },
+      { "value": 4, "count": 19 },
+      { "value": 5, "count": 12 }
+    ],
+    "stock": 140,
+    "createdAt": "2026-01-10T17:10:00Z",
+    "categoryId": 9,
+    "materialId": [1, 2, 3],
+    "colorId": [4, 11]
+  },
+  {
+    "id": 15,
+    "name": "SIERRA 240 OG",
+    "image": { "src": "sierra 240 og.jpg", "alt": "Sierra 240 og wardrobe,front view" },
+    "discount": 20,
+    "price":  750,
+    "rating": [
+      { "value": 1, "count": 3 },
+      { "value": 2, "count": 6 },
+      { "value": 3, "count": 14 },
+      { "value": 4, "count": 33 },
+      { "value": 5, "count": 42 }
+    ],
+    "stock": 361,
+    "createdAt": "2026-01-13T11:55:00Z",
+    "categoryId": 9,
+    "materialId": [3, 2],
+    "colorId": [2, 4]
+  },
+  {
+    "id": 16,
+    "name": "TARA D UG",
+    "image": { "src": "tara d ug.jpg", "alt": "Tara d ug kitchen element,front view" },
+    "discount": 15,
+    "price":  90,
+    "rating": [
+      { "value": 1, "count": 5 },
+      { "value": 2, "count": 10 },
+      { "value": 3, "count": 18 },
+      { "value": 4, "count": 29 },
+      { "value": 5, "count": 21 }
+    ],
+    "stock": 362,
+    "createdAt": "2026-01-21T14:00:00Z",
+    "categoryId": 10,
+    "materialId": [1, 3],
+    "colorId": [2, 4, 11]
+  },
+  {
+    "id": 17,
+    "name": "TARA D60 3F",
+    "image": { "src": "tara d60 3f.jpg", "alt": "Tara d60 3f kitchen element, front view" },
+    "discount": 20,
+    "price":  150,
+    "rating": [
+      { "value": 1, "count": 6 },
+      { "value": 2, "count": 12 },
+      { "value": 3, "count": 28 },
+      { "value": 4, "count": 18 },
+      { "value": 5, "count": 9 }
+    ],
+    "stock": 123,
+    "createdAt": "2026-01-05T10:20:00",
+    "categoryId": 10,
+    "materialId": [1, 3],
+    "colorId": [2, 4, 11]
+  },
+  {
+    "id": 18,
+    "name": "TARA D120 1F",
+    "image": { "src": "tara d120 1f.jpg", "alt": "Tara d120 1f kitchen element, front view" },
+    "discount": 15,
+    "price":  160,
+    "rating": [
+      { "value": 1, "count": 4 },
+      { "value": 2, "count": 9 },
+      { "value": 3, "count": 22 },
+      { "value": 4, "count": 26 },
+      { "value": 5, "count": 14 }
+    ],
+    "stock": 12,
+    "createdAt": "2026-01-06T11:00:00",
+    "categoryId": 10,
+    "materialId": [1, 3],
+    "colorId": [2, 4, 11]
+  },
+  {
+    "id": 19,
+    "name": "TARA V120",
+    "image": { "src": "tara v120.jpg", "alt": "Tara v120 kitchen element, front view" },
+    "discount": 10,
+    "price":  130,
+    "rating": [
+      { "value": 1, "count": 3 },
+      { "value": 2, "count": 7 },
+      { "value": 3, "count": 19 },
+      { "value": 4, "count": 31 },
+      { "value": 5, "count": 21 }
+    ],
+    "stock": 86,
+    "createdAt": "2026-01-07T12:10:00",
+    "categoryId": 10,
+    "materialId": [1, 3],
+    "colorId": [11, 4]
+  },
+  {
+    "id": 20,
+    "name": "FIVE",
+    "image": { "src": "five.jpg", "alt": "Five kitchen decoration, front view" },
+    "discount": 10,
+    "price":  5,
+    "rating": [
+      { "value": 1, "count": 1 },
+      { "value": 2, "count": 4 },
+      { "value": 3, "count": 10 },
+      { "value": 4, "count": 32 },
+      { "value": 5, "count": 45 }
+    ],
+    "stock": 364,
+    "createdAt": "2026-01-08T09:30:00",
+    "categoryId": 11,
+    "materialId": 1,
+    "colorId": 11
+  },
+  {
+    "id": 21,
+    "name": "HARMONY",
+    "image": { "src": "harmony.jpg", "alt": "Harmony kitchen decoration, front view" },
+    "discount": null,
+    "price":  6,
+    "rating": [
+      { "value": 1, "count": 0 },
+      { "value": 2, "count": 3 },
+      { "value": 3, "count": 8 },
+      { "value": 4, "count": 9 },
+      { "value": 5, "count": 2 }
+    ],
+    "stock": 386,
+    "createdAt": "2026-01-09T14:45:00",
+    "categoryId": 11,
+    "materialId": 1,
+    "colorId": 11
+  },
+  {
+    "id": 22,
+    "name": "MODERN",
+    "image": { "src": "modern.jpg", "alt": "Modern kitchen decoration, front view" },
+    "discount": 5,
+    "price":  5,
+    "rating": [
+      { "value": 1, "count": 2 },
+      { "value": 2, "count": 6 },
+      { "value": 3, "count": 17 },
+      { "value": 4, "count": 34 },
+      { "value": 5, "count": 28 }
+    ],
+    "stock": 472,
+    "createdAt": "2026-01-10T08:00:00",
+    "categoryId": 11,
+    "materialId": [1, 3],
+    "colorId": [11, 2]
+  },
+  {
+    "id": 23,
+    "name": "RUTSJON",
+    "image": { "src": "rutsjon.avif", "alt": "Rutsjon sink, front view" },
+    "discount": 10,
+    "price":  50,
+    "rating": [
+      { "value": 1, "count": 5 },
+      { "value": 2, "count": 11 },
+      { "value": 3, "count": 24 },
+      { "value": 4, "count": 19 },
+      { "value": 5, "count": 14 }
+    ],
+    "stock": 326,
+    "createdAt": "2026-01-11T15:20:00",
+    "categoryId": 12,
+    "materialId": 6,
+    "colorId": 2
+  },
+  {
+    "id": 24,
+    "name": "VASTERSJON",
+    "image": { "src": "vastersjon.avif", "alt": "Vastersjon sink, front view" },
+    "discount": 20,
+    "price":  70,
+    "rating": [
+      { "value": 1, "count": 2 },
+      { "value": 2, "count": 6 },
+      { "value": 3, "count": 14 },
+      { "value": 4, "count": 31 },
+      { "value": 5, "count": 37 }
+    ],
+    "stock": 511,
+    "createdAt": "2026-01-12T13:10:00",
+    "categoryId": 12,
+    "materialId": 6,
+    "colorId": 2
+  },
+  {
+    "id": 25,
+    "name": "TVALLEN",
+    "image": { "src": "tvallen.avif", "alt": "Tvallen sink, front view" },
+    "discount": 20,
+    "price":  100,
+    "rating": [
+      { "value": 1, "count": 1 },
+      { "value": 2, "count": 4 },
+      { "value": 3, "count": 9 },
+      { "value": 4, "count": 28 },
+      { "value": 5, "count": 52 }
+    ],
+    "stock": 362,
+    "createdAt": "2026-01-13T16:40:00",
+    "categoryId": 12,
+    "materialId": 6,
+    "colorId": 2
+  },
+  {
+    "id": 26,
+    "name": "VALLAMOSE",
+    "image": { "src": "vallamose.avif", "alt": "Vallamose shower, front view" },
+    "discount": null,
+    "price":  10,
+    "rating": [
+      { "value": 1, "count": 3 },
+      { "value": 2, "count": 8 },
+      { "value": 3, "count": 16 },
+      { "value": 4, "count": 29 },
+      { "value": 5, "count": 22 }
+    ],
+    "stock": 36,
+    "createdAt": "2026-01-14T09:00:00",
+    "categoryId": 13,
+    "materialId": 4,
+    "colorId": 12
+  },
+  {
+    "id": 27,
+    "name": "VOXNAN",
+    "image": { "src": "voxnan.avif", "alt": "Voxnan shower, front view" },
+    "discount": 10,
+    "price":  12,
+    "rating": [
+      { "value": 1, "count": 2 },
+      { "value": 2, "count": 5 },
+      { "value": 3, "count": 13 },
+      { "value": 4, "count": 33 },
+      { "value": 5, "count": 31 }
+    ],
+    "stock": 136,
+    "createdAt": "2026-01-15T10:10:00",
+    "categoryId": 13,
+    "materialId": 4,
+    "colorId": 12
+  },
+  {
+    "id": 28,
+    "name": "BROGRUND",
+    "image": { "src": "brogrund.avif", "alt": "Brogrund shower, front view" },
+    "discount": null,
+    "price":  12,
+    "rating": [
+      { "value": 1, "count": 0 },
+      { "value": 2, "count": 3 },
+      { "value": 3, "count": 7 },
+      { "value": 4, "count": 26 },
+      { "value": 5, "count": 68 }
+    ],
+    "stock": 352,
+    "createdAt": "2026-01-16T11:30:00",
+    "categoryId": 13,
+    "materialId": [3, 4],
+    "colorId": 12
+  },
+  {
+    "id": 29,
+    "name": "SVANSELE",
+    "image": { "src": "svansele.avif", "alt": "Svansele mirror, front view" },
+    "discount": null,
+    "price":  15,
+    "rating": [
+      { "value": 1, "count": 1 },
+      { "value": 2, "count": 4 },
+      { "value": 3, "count": 12 },
+      { "value": 4, "count": 27 },
+      { "value": 5, "count": 39 }
+    ],
+    "stock": 39,
+    "createdAt": "2026-01-17T12:00:00",
+    "categoryId": 14,
+    "materialId": 2,
+    "colorId": 13
+  },
+  {
+    "id": 30,
+    "name": "NISSEDAL",
+    "image": { "src": "nissedal.avif", "alt": "Nissedal mirror, front view" },
+    "discount": 10,
+    "price":  20,
+    "rating": [
+      { "value": 1, "count": 0 },
+      { "value": 2, "count": 2 },
+      { "value": 3, "count": 6 },
+      { "value": 4, "count": 24 },
+      { "value": 5, "count": 77 }
+    ],
+    "stock": 83,
+    "createdAt": "2026-01-18T14:00:00",
+    "categoryId": 14,
+    "materialId": 2,
+    "colorId": 2
+  },
+  {
+    "id": 31,
+    "name": "LINDBYN",
+    "image": { "src": "lindbyn.avif", "alt": "Lindbyn mirror, front view" },
+    "discount": null,
+    "price":  25,
+    "rating": [
+      { "value": 1, "count": 0 },
+      { "value": 2, "count": 1 },
+      { "value": 3, "count": 4 },
+      { "value": 4, "count": 19 },
+      { "value": 5, "count": 103 }
+    ],
+    "stock": 347,
+    "createdAt": "2026-01-19T18:20:00",
+    "categoryId": 14,
+    "materialId": 2,
+    "colorId": 4
+  }
+]
+

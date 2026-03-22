@@ -1,0 +1,37 @@
+[
+    {
+        "id" : 0,
+        "name" : "Sort",
+        "key" : "dont"
+    },
+    {
+        "id" : 1,
+        "name" : "Name : A - Z",
+        "key" : "nameDesc"
+    },
+    {
+        "id" : 2,
+        "name" : "Name : Z - A",
+        "key" : "nameAsc"
+    },
+    {
+        "id" : 3,
+        "name" : "Price : Low to high",
+        "key" : "priceAsc"
+    },
+    {
+        "id" : 4,
+        "name" : "Price : High to low",
+        "key" : "priceDesc"
+    },
+    {
+        "id" : 5,
+        "name" : "Discount : Low to high",
+        "key" : "discountAsc"
+    },
+    {
+        "id" : 6,
+        "name" : "Discount : High to low",
+        "key" : "discountDesc"
+    }
+]

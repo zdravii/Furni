@@ -1,0 +1,46 @@
+[
+    {
+        "id" : 1,
+        "firstName" : "Lawson",
+        "lastName" : "Arnold",
+        "image" : "person_1.jpg",
+        "role" : {
+            "title" : "CEO",
+            "description" : "Founder"
+        },
+        "description" : "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+    },
+    {
+        "id" : 2,
+        "firstName" : "Jeremy",
+        "lastName" : "Walker",
+        "image" : "person_2.jpg",
+        "role" : {
+            "title" : "CEO",
+            "description" : "Founder"
+        },
+        "description" : "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+    },
+    {
+        "id" : 3,
+        "firstName" : "Patrik",
+        "lastName" : "White",
+        "image" : "person_3.jpg",
+        "role" : {
+            "title" : "CEO",
+            "description" : "Founder"
+        },
+        "description" : "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+    },
+    {
+        "id" : 4,
+        "firstName" : "Kathryn",
+        "lastName" : "Ryan",
+        "image" : "person_4.jpg",
+        "role" : {
+            "title" : "CEO",
+            "description" : "Founder"
+        },
+        "description" : "Separated they live in. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+    }
+]

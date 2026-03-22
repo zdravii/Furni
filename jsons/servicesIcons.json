@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "title" : "Fast &amp; Free Shipping",
+        "image" : "truck.svg"
+    },
+    {
+        "id" : 2,
+        "title" : "Easy to Shop",
+        "image" : "bag.svg"
+    },
+    {
+        "id" : 3,
+        "title" : "24/7 Support",
+        "image" : "support.svg"
+    },
+    {
+        "id" : 4,
+        "title" : "Hassle Free Returns",
+        "image" : "return.svg"
+    }
+]

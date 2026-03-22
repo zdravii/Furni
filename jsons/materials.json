@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "name" : "Wood"
+    },
+    {
+        "id" : 2,
+        "name" : "Glass"
+    },
+    {
+        "id" : 3,
+        "name" : "Metal"
+    },
+    {
+        "id" : 4,
+        "name" : "Plastic"
+    },
+    {
+        "id" : 5,
+        "name" : "Upholstery & Leather"
+    },
+    {
+        "id" : 6,
+        "name" : "Ceramic"
+    }
+]

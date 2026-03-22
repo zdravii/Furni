@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Living Room",
+    "parentId": null
+  },
+  {
+    "id": 2,
+    "name": "Bedroom",
+    "parentId": null
+  },
+  {
+    "id": 3,
+    "name": "Kitchen",
+    "parentId": null
+  },
+  {
+    "id": 4,
+    "name": "Bathroom",
+    "parentId": null
+  },
+  {
+    "id": 5,
+    "name": "Tv Shelf",
+    "parentId": 1
+  },
+  {
+    "id": 6,
+    "name": "Footstool",
+    "parentId": 1
+  },
+  {
+    "id": 7,
+    "name": "Sofa",
+    "parentId": 1
+  },
+  {
+    "id": 8,
+    "name": "Bed",
+    "parentId": 2
+  },
+  {
+    "id": 9,
+    "name": "Closet and Wardrobe",
+    "parentId": 2
+  },
+  {
+    "id": 10,
+    "name": "Kitchen Elements",
+    "parentId": 3
+  },
+  {
+    "id": 11,
+    "name": "Kitchen Decoration",
+    "parentId": 3
+  },
+  {
+    "id": 12,
+    "name": "Sink",
+    "parentId": 4
+  },
+  {
+    "id": 13,
+    "name": "Shower",
+    "parentId": 4
+  },
+  {
+    "id": 14,
+    "name": "Mirror",
+    "parentId": 4
+  }
+]
