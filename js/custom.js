@@ -1,4 +1,4 @@
-const JSON_PATH_PREFIX = "jsons/";
+const JSON_PATH_PREFIX = "assets/jsons/";
 let allProductsData = [];
 let productsData = [];
 let categories = [];
@@ -52,6 +52,8 @@ window.onload = function () {
     case "thankyou":
       initThankYouPage();
       break;
+    case "author":
+      break;
   }
 };
 
@@ -66,13 +68,13 @@ function printMenu(dataArr, page) {
   text += `</ul>
 
 			 <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-				<li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+				<li><a class="nav-link" href="cart.html"><img src="assets/images/cart.svg"></a></li>
 			 </ul>`;
 
   document.getElementById("navbarsFurni").innerHTML = text;
 }
 
-// FUNCTIONALITY FOR INDEX PAGE -------------------------------------------------------------------------------------------------------- 
+// FUNCTIONALITY FOR INDEX PAGE --------------------------------------------------------------------------------------------------------
 
 function initIndexPage() {
   fetchData("products.json").then((data) => {
@@ -108,7 +110,7 @@ function printPopularProducts(productsArr) {
     text += `<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
 						<div class="product-item-sm d-flex">
 							<div class="thumbnail">
-								<img src="images/${product.image.src}" alt="${product.image.alt}" class="img-fluid">
+								<img src="assets/images/${product.image.src}" alt="${product.image.alt}" class="img-fluid">
 							</div>
 							<div class="pt-3">
 								<h3>${product.name}</h3>
@@ -190,44 +192,44 @@ function initShopPage() {
       showToast("Item added successfully.");
     });
 
-    document.getElementById("loadMoreBtn").addEventListener("click",function () {
-      visibleCount += 8;
-      printProducts();
-      toogleLoadMoreButton();
-    })
+  document.getElementById("loadMoreBtn").addEventListener("click", function () {
+    visibleCount += 8;
+    printProducts();
+    toogleLoadMoreButton();
+  });
 }
 
 function printProducts() {
   console.log("visible:", visibleCount);
-console.log("total:", productsData.length);
+  console.log("total:", productsData.length);
   let productsSection = document.getElementById("productsSection");
-  let productToTShow = productsData.slice(0,visibleCount);
+  let productToTShow = productsData.slice(0, visibleCount);
   let text = ``;
 
   productToTShow.forEach((p) => {
     p.discount
       ? (text += `<div class="col-12 col-md-4 col-lg-3 mb-5">
 						<a class="product-item" href="#">
-							<img src="images/${p.image.src}" alt="${p.image.alt}" class="img-fluid product-thumbnail">
+							<img src="assets/images/${p.image.src}" alt="${p.image.alt}" class="img-fluid product-thumbnail">
 							<h3 class="product-title">${p.name}</h3>
 							<p>${calculateAverageRating(p)} <i class="fa-solid fa-star"></i></p>
 							<p class="text-decoration-line-through">$${p.price}</p>
 							<strong class="product-price">$${printPrice(p.price, p.discount)}</strong>
 
 							<span class="icon-cross" data-id="${p.id}">
-								<img src="images/cross.svg" class="img-fluid">
+								<img src="assets/images/cross.svg" class="img-fluid">
 							</span>
 						</a>
 					</div>`)
       : (text += `<div class="col-12 col-md-4 col-lg-3 mb-5">
 						<a class="product-item" href="#">
-							<img src="images/${p.image.src}" alt="${p.image.alt}" class="img-fluid product-thumbnail">
+							<img src="assets/images/${p.image.src}" alt="${p.image.alt}" class="img-fluid product-thumbnail">
 							<h3 class="product-title">${p.name}</h3>
 							<p>${calculateAverageRating(p)} <i class="fa-solid fa-star"></i></p>
 							<strong class="product-price">$${printPrice(p.price, p.discount)}</strong>
 
 							<span class="icon-cross" data-id="${p.id}">
-								<img src="images/cross.svg" class="img-fluid">
+								<img src="assets/images/cross.svg" class="img-fluid">
 							</span>
 						</a>
 					</div>`);
@@ -298,7 +300,7 @@ function toogleLoadMoreButton() {
 
   if (visibleCount >= productsData.length) {
     btn.classList.add("d-none");
-  }else{
+  } else {
     btn.classList.remove("d-none");
   }
 }
@@ -328,7 +330,7 @@ function printTeam(employeesArr) {
 
   employeesArr.forEach((e) => {
     text += `<div class="col-12 col-md-6 col-lg-3 mb-5 mb-md-0">
-					<img src="images/${e.image}" class="img-fluid mb-5">
+					<img src="assets/images/${e.image}" class="img-fluid mb-5">
 					<h3 clas><a href="#"><span class="">${e.firstName}</span> ${e.lastName}</a></h3>
             		<span class="d-block position mb-4">${e.role.title},${e.role.description}</span>
             		<p>${e.description}.</p>
@@ -419,7 +421,7 @@ function renderCart(cartDiv) {
       let plus = c.quantity >= 10 ? "disabled" : "";
       text += `<tr>
                             <td class="product-thumbnail">
-                              <img src="images/${prodcut.image.src}" alt="${prodcut.image.alt}" class="img-fluid">
+                              <img src="assets/images/${prodcut.image.src}" alt="${prodcut.image.alt}" class="img-fluid">
                             </td>
                             <td class="product-name">
                               <h2 class="h5 text-black">${prodcut.name}</h2>
@@ -592,7 +594,7 @@ function printServicesIcons(iconsArr, div) {
         text += `<div class="col-6 col-md-6 col-lg-3 mb-4">
 						<div class="feature">
 							<div class="icon">
-								<img src="images/${iconObj.image}" alt="${iconObj.title}" class="imf-fluid">
+								<img src="assets/images/${iconObj.image}" alt="${iconObj.title}" class="imf-fluid">
 							</div>
 							<h3>${iconObj.title}</h3>
 							<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
@@ -605,7 +607,7 @@ function printServicesIcons(iconsArr, div) {
       text += `<div class="col-6 col-md-6">
 						<div class="feature">
 							<div class="icon">
-								<img src="images/${iconObj.image}" alt="${iconObj.title}" class="imf-fluid">
+								<img src="assets/images/${iconObj.image}" alt="${iconObj.title}" class="imf-fluid">
 							</div>
 							<h3>${iconObj.title}</h3>
 							<p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
@@ -627,7 +629,7 @@ function printBlogs(data, div) {
       data.forEach((b) => {
         text += `<div class="col-12 col-sm-6 col-md-4 mb-5">
 						<div class="post-entry">
-							<a href="blog.html" class="post-thumbnail"><img src="images/${b.image}" alt="${b.title}" class="img-fluid"></a>
+							<a href="blog.html" class="post-thumbnail"><img src="assets/images/${b.image}" alt="${b.title}" class="img-fluid"></a>
 							<div class="post-content-entry">
 								<h3>${b.title}</h3>
 								<div class="meta">
@@ -642,7 +644,7 @@ function printBlogs(data, div) {
     data.forEach((b) => {
       text += `<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
 							<div class="post-entry">
-								<a href="blog.html" class="post-thumbnail"><img src="images/${b.image}" alt="${b.title}" class="img-fluid"></a>
+								<a href="blog.html" class="post-thumbnail"><img src="assets/images/${b.image}" alt="${b.title}" class="img-fluid"></a>
 								<div class="post-content-entry">
 									<h3>${b.title}</h3>
 									<div class="meta">
@@ -694,7 +696,7 @@ function printDdl(data, div, label) {
     });
   }
 
-  if (div == "colorFilter") {
+  if (div == "colorFilter" || div == "c_country") {
     data.forEach((c) => {
       text += `<option value="${c.id}">${c.name}</option>`;
     });
@@ -722,7 +724,7 @@ function printInitProducts(productsArr) {
   for (let i = 0; i < 3; i++) {
     text += `<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
 						<div class="product-item">
-							<img src="images/${productsArr[i].image.src}" alt=${productsArr[i].image.alt} class="img-fluid product-thumbnail">
+							<img src="assets/images/${productsArr[i].image.src}" alt=${productsArr[i].image.alt} class="img-fluid product-thumbnail">
 							<h3 class="product-title">${productsArr[i].name}</h3>
 							<strong class="product-price">$${productsArr[i].price}</strong>
 						</div>
